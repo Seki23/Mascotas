@@ -1,0 +1,52 @@
+{
+  "mascotas": [
+    {
+      "id": 1,
+      "raza": "Basenji",
+      "des": "Este perro de tamaño pequeño-mediano tiene una cola muy curvada y la frente arrugada. El pelaje es brillante, corto y suave y puede ser rojo y blanco, negro y blanco, negro, canela y blanco, tricolor o con muchos colores mezclados",
+      "img": "https://res.cloudinary.com/dznipjpqz/image/upload/v1630303771/canes/basenji_r_mdb4oy.png",
+      "origen": "África",
+      "peso": "11kg",
+      "guardian": "No",
+      "salud": "Las enfermedades heredadas más conocidas en los basenjis son un tipo de enfermedad renal (síndrome de Fanconi) y una clase de anemia. Hay pruebas genéticas para ambas dolencias. Al igual que en muchas otras razas, pueden aparecer trastornos oculares.",
+      "ejercicio": "Criado para cazar en terrenos difíciles, el basenji necesita, como mínimo, una hora diaria de ejercicio y puede resistir más si se lo puedes ofrecer. Aunque no es fácil de adiestrar, es aconsejable hacer participar al basenji en algún tipo de deporte canino para mantener el cuerpo y la mente sanos. Desconocen lo que es una carretera y les cuesta orientarse en ella, por lo que hay que tomar precauciones cuando se ejercite cerca del tráfico.",
+      "nutricion": "Los perros pequeños tienen un metabolismo rápido, lo que significa que queman energía a un ritmo muy alto. Con un estómago tan pequeño, esto implica que deben comer poco pero a menudo."
+    },
+    {
+      "id": 5,
+      "raza": "Silky Terrier",
+      "des": "El pelaje largo y glamuroso de este perro tipo toy está dividido en el lomo y puede presentarse en azul y canela, gris azulado y canela, plata y canela o plata azulada y canela.",
+      "img": "https://res.cloudinary.com/dznipjpqz/image/upload/v1635662620/canes/silkyTerrier_zsbc5p.png",
+      "origen": "Australia",
+      "peso": "4.5kg",
+      "guardian": "NO",
+      "salud": "Como ocurre con muchas razas pequeñas, el terrier sedoso australiano puede padecer desplazamientos temporales de la rótula (luxaciones de rótula), problemas de cadera y de tráquea.",
+      "ejercicio": "Un par de paseos de 20 minutos al día mantendrá feliz al perro adulto, junto con algún rato de juegos dentro de casa o en el jardín. No necesita mucho ejercicio físico, pero se desarrollará mejor si pasa tiempo de calidad con sus seres queridos.",
+      "nutricion": "Los perros de compañía tienen un metabolismo rápido, lo que significa que queman energía a un ritmo muy alto. Esto supone que, con un estómago tan pequeño, deben comer poco pero a menudo."
+    },
+    {
+      "id": 8,
+      "raza": "Chow Chow",
+      "des": "El Chow chow de pelo duro es un perro pequeño, compacto y cuadrado. Su cola se curva sobre el lomo. La parte interior de la boca y la lengua son de color azul/negro. Puede tener dos tipos de pelaje, duro o suave, y una amplia variedad de tonos (negro, rojizo, azul, beis, crema o blanco).",
+      "img": "https://res.cloudinary.com/dznipjpqz/image/upload/v1630307326/canes/chowChow_r_edj52t.png",
+      "origen": "Mongolia",
+      "peso": "25kg",
+      "guardian": "No",
+      "salud": "Los problemas de salud más comunes del chow chow son la displasia de codo y los problemas en los párpados. Al igual que muchas otras razas, pueden sufrir displasia de cadera (una enfermedad que puede provocar problemas de movilidad).",
+      "ejercicio": "El chow chow no necesita una gran cantidad de ejercicio, le basta con una hora diaria, pero prefiere estar en el exterior y vivirá feliz a su aire en el jardín. Aun así, deberá tener una zona fresca con sombra donde resguardarse del frío o de las altas temperaturas. Si hacen demasiado ejercicio de jóvenes, pueden sufrir problemas de huesos y articulaciones a la edad adulta, así que debe controlarse bien el ejercicio que realicen.",
+      "nutricion": "La dieta de tu perro debe contener la proporción adecuada de todos los principales grupos de nutrientes. Además, deberá tener siempre agua fresca a su disposición."
+    },
+    {
+      "id": 12,
+      "raza": "Sabueso Bávaro de Montaña",
+      "des": "Este sabueso de tamaño medio y musculoso tiene una longitud levemente superior a su altura. Una raza que podía olfatear el olor frío de las presas heridas en zonas montañosas.",
+      "img": "https://res.cloudinary.com/dznipjpqz/image/upload/v1635662619/canes/sabueso_wgvklq.png",
+      "origen": "Desconocida",
+      "peso": "20kg",
+      "guardian": "No",
+      "salud": "Al igual que muchas otras razas, el sabueso bávaro de montaña puede sufrir displasia de cadera (una enfermedad que puede provocar problemas de movilidad). Por lo tanto, es importante hacer un examen de la cadera de los perros antes de dedicarlos a la crianza.",
+      "ejercicio": "Creado para cazar presas heridas —a veces durante días, este perro es muy resistente y necesitará, como mínimo, dos horas al día o más de ejercicio. Es una raza de trabajo que disfrutará rastreando y con otros deportes caninos que le ejercitarán la mente, el cuerpo y el hocico.",
+      "nutricion": "La dieta de tu perro debe contener la proporción adecuada de todos los principales grupos de nutrientes. Además, deberá tener siempre agua fresca a su disposición"
+    }
+  ]
+}
