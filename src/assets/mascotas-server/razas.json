@@ -47,6 +47,17 @@
       "salud": "Al igual que muchas otras razas, el sabueso bávaro de montaña puede sufrir displasia de cadera (una enfermedad que puede provocar problemas de movilidad). Por lo tanto, es importante hacer un examen de la cadera de los perros antes de dedicarlos a la crianza.",
       "ejercicio": "Creado para cazar presas heridas —a veces durante días, este perro es muy resistente y necesitará, como mínimo, dos horas al día o más de ejercicio. Es una raza de trabajo que disfrutará rastreando y con otros deportes caninos que le ejercitarán la mente, el cuerpo y el hocico.",
       "nutricion": "La dieta de tu perro debe contener la proporción adecuada de todos los principales grupos de nutrientes. Además, deberá tener siempre agua fresca a su disposición"
+    },
+    {
+      "raza": "Pinscher",
+      "origen": "Afganistán",
+      "guardian": "Si",
+      "peso": "20",
+      "des": "Es bonito cariñoso y fiel",
+      "salud": "Saludable",
+      "ejercicio": "No hace",
+      "nutricion": "Come chetos",
+      "id": 13
     }
   ]
 }

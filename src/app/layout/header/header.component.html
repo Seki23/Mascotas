@@ -4,7 +4,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark mt-4 ">
             <div class="container-fluid">
                 <a href="#" class="navbar-brand">
-                    <img width="30%" alt="Diplomado" [src]="logo" > Diplomado
+                    <img width="30%" alt="Diplomado" [src]="logo"> Diplomado
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -42,10 +42,21 @@
                             </ul>
                         </li>
                         <li class="nav-item ">
-                            <a [routerLink]="[pets+'/listar']"class="nav-link " role="button" 
+                            <a [routerLink]="[pets+'/listar']" class="nav-link " role="button"
                                 aria-expanded="false">Mascotas
                             </a>
-                            
+
+                        </li>
+                        <li class="nav-item ">
+                            <a [routerLink]="['forms']" class="nav-link " role="button" aria-expanded="false">Formulario
+                            </a>
+
+                        </li>
+                        <li class="nav-item ">
+                            <a [routerLink]="['anime/listar']" class="nav-link " role="button"
+                                aria-expanded="false">Anime
+                            </a>
+
                         </li>
                     </ul>
                 </div>

@@ -1,0 +1,19 @@
+<div class="d-flex p-2 m-5">
+    <div class="container">
+        <hr />
+
+        <!-- <input type="text" class="form-control" placeholder="Buscar carta" [formControl]="cardText"> -->
+        <app-buscar (buscar)="onScroll(a=$event)"></app-buscar>
+
+        <div class="lista" infiniteScroll [infiniteScrollDistance]="2" [infiniteScrollThrottle]="100"
+            (scrolled)="onScroll(a)">
+
+            <div class="cards">
+                <ng-container *ngFor="let x of resultados">
+                    <app-card [card]="x"></app-card>
+                </ng-container>
+            </div>
+
+        </div>
+    </div>
+</div>

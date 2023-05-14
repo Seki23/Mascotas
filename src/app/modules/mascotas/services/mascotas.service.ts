@@ -48,6 +48,16 @@ eliminarMascotas(id:any){
   return this.http.delete(`${this.baseUrl}/mascotas/${id}`)
 }
 
+nuevaMascota(pet:IMascota):any{
+  const url=`${this.baseUrl}/mascotas/`;
+  return this.http.post(url,pet);
+}
+
+editarMascota(pet:IMascota):any{
+  console.log(pet);
+  const url=`${this.baseUrl}/mascotas/${pet.id}`;
+  return this.http.put(url,pet);
+}
 
  buscarMascota(termino:string):Observable<IMascota[]>{
      if(termino.length>1){

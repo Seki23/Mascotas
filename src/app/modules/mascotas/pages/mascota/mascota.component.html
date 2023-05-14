@@ -6,26 +6,35 @@
             </div>
         </ng-container>
         <ng-template #divMascota>
-        <div fxLayout="row" fxLayout.xs="column">
-            <div fxFlex="50"> 
-                <h1>
-                    <strong>Raza: {{mascota.raza}}</strong>
-                    <small>/ de {{mascota.origen}}</small>
-                </h1>
-                <br/>
-                <img class="img" [src]="mascota.img" alt=""/>
+            <div fxLayout="row" fxLayout.xs="column">
+                <div fxFlex="50">
+                    <h1>
+                        <strong>Raza: {{mascota.raza}}</strong>
+                        <small>/ de {{mascota.origen}}</small>
+                    </h1>
+                    <br />
+                    <img class="img" [src]="mascota.img" alt="" />
+                </div>
+                <div fxFlex="50">
+                    <h1>{{mascota.peso}} <small>/ Guardian: {{mascota.guardian}}</small></h1>
+                    <br />
+                    <p>{{mascota.des}}</p>
+                    <p>{{mascota.salud}}</p>
+                    <p>{{mascota.ejercicio}}</p>
+                    <p>{{mascota.nutricion}}</p>
+                    <hr>
+
+                    <div class="form-group row">
+                        <div class="form-group col-md-1">
+                            <button mat-button class="btn btn-success m-2" (click)="regresar()"><i
+                                    class="bi bi-backspace"></i></button>
+                        </div>
+                        <div class="form-group col-md-1">
+                            <app-nuevo [leyenda]="'Editar'" [mascota]="mascota"></app-nuevo>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div fxFlex="50">
-                <h1>{{mascota.peso}} <small>/ Guardian: {{mascota.guardian}}</small></h1>
-                <br/>
-                <p>{{mascota.des}}</p>
-                <p>{{mascota.salud}}</p>
-                <p>{{mascota.ejercicio}}</p>
-                <p>{{mascota.nutricion}}</p>
-                <br>
-                <button mat-button class="btn btn-success m-2" (click)="regresar()"><i class="bi bi-backspace"></i></button>
-            </div> 
-        </div>
         </ng-template>
     </div>
 </div>

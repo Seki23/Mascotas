@@ -1,13 +1,13 @@
 <div class="d-flex p-2 m-2">
   <div class="card" style="width: 15rem;">
-    <img [src]="obj.img" class="card-img-top" alt="...">
+    <img [src]="obj.img | imagenEmpty:'mascotas'" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">{{obj.raza}}</h5>
       <p><strong>{{obj.origen}}</strong></p>
       <p class="card-text"><strong>Peso</strong> {{obj.peso}}</p>
       <p class="card-text"><strong>Guardian</strong> {{obj.guardian}}</p>
       <a [routerLink]="['/'+pets,obj.id]" class="btn btn-primary ">Leer mas</a>
-      <a   (click)="eliminar(obj.id)" class="btn btn-danger">Eliminar</a>
+      <a (click)="eliminar(obj.id)" class="btn btn-danger">Eliminar</a>
     </div>
   </div>
 </div>
