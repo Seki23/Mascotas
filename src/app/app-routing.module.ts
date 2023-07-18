@@ -34,6 +34,11 @@ const routes: Routes = [
         loadChildren: () =>
           import('@modules/anime/anime.module').then((m) => m.AnimeModule),
       },
+      {
+        path: 'calendar',
+        loadChildren: () =>
+          import('@modules/calendar/calendar.module').then((m) => m.CalendarModule),
+      },
       { path: 'forms', component: FormularioComponent },
     ],
   },
@@ -44,4 +49,4 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }
