@@ -39,6 +39,16 @@ const routes: Routes = [
         loadChildren: () =>
           import('@modules/calendar/calendar.module').then((m) => m.CalendarModule),
       },
+      {
+        path: 'leerExcel',
+        loadChildren: () =>
+          import('@modules/leer-excel/leer-excel.module').then((m) => m.LeerExcelModule),
+      },
+      {
+        path: 'cargar',
+        loadChildren: () =>
+          import('@modules/subida/subida.module').then((m) => m.SubidaModule),
+      },
       { path: 'forms', component: FormularioComponent },
     ],
   },

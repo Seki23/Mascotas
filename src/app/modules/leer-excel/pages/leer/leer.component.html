@@ -1,0 +1,36 @@
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-6">
+      <div class="card">
+        <div class="card-body">
+          <div class="card-title">Leer archivos Excel</div>
+        </div>
+        <input type="file" class="form-control" (change)="leerFile($event)">
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <table class="table" *ngIf="datos.length>0">
+      <thead>
+        <tr>
+          <th>N</th>
+          <th>Apellido</th>
+          <th>Nombre</th>
+          <th>Email</th>
+          <th>Tiempo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let x of datos">
+          <td>{{x.id}}</td>
+          <td>{{x.Apellido}}</td>
+          <td>{{x.Nombre}}</td>
+          <td>{{x.Correo}}</td>
+          <td><span>{{x.Tiempo}}</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+

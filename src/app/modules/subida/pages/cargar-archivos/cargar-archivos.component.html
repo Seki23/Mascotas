@@ -1,0 +1,50 @@
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <div class="card">
+        <div class="card-body">
+          <div class="card-title">Dropzone</div>
+        </div>
+        <div>
+        <dropzone id="dropzone" class="dropzone" [config]="config" (removedFile)="eliminar($event)" [message]="'Click o arrastrar archivos para subir'"></dropzone>
+      </div>
+      <div class="text-center mt-4">
+        <button type="button" class="btn btn-primary" (click)="multiple()">Subir Archivos</button>
+      </div>
+    </div>
+  </div>
+  <div class="file-table col-6">
+    <h3 class="m-3">Lista de Archivos Subidos</h3>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">File Name</th>
+          <th scope="col">Size</th>
+          <th scope="col">Type</th>
+          <td></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let file of allFiles; let i=index">
+          <th scope="row">{{i+1}}</th>
+          <td>{{file.archivo.name}}</td>
+          <td>{{file.archivo.size}} Bytes</td>
+          <td>{{file.archivo.type}}</td>
+          <td>
+            <button type="button" class="btn btn-warning" (click)="descargar(file.id,file.archivo.name)">Descargar</button>
+          </td>
+        </tr>
+        <tr class="text-center" *ngIf="allFiles.length===0">
+          <td colspan="4"><strong>No hay archivos para Descargar</strong></td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+</div>
+
+
+
+</div>
+
+
